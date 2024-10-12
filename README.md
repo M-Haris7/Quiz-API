@@ -1,4 +1,3 @@
-# Quiz-API
 # Quiz API
 
 A RESTful API for an online quiz application built using **Node.js** and **Express.js**. The application supports user authentication, quiz creation, and management of multiple-choice questions (MCQs). It also allows users to take quizzes and view their results.
@@ -91,9 +90,9 @@ Make sure you have the following installed on your machine:
       "description": "This is a sample quiz",
       "questions": [
         {
-          "question": "What is 2 + 2?",
-          "options": ["1", "2", "3", "4"],
-          "correctOption": 3
+          "question": "Which football player has scored the most goals??",
+          "options": ["Pele", "Cristiano Ronaldo", "Lionel Messi", "Romario"],
+          "correctOption": 2
         }
       ]
     }
@@ -110,7 +109,7 @@ Make sure you have the following installed on your machine:
   - Body:
     ```json
     {
-      "answers": [3, 1, 2]
+      "answers": [2]
     }
     ```
 
